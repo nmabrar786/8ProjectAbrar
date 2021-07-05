@@ -1,0 +1,75 @@
+/*font-family: 'PT Sans', sans-serif;fcdb00*/
+/*common start*/
+body{
+margin:0;
+padding:0;
+font-family: 'PT Sans', sans-serif;
+font-size:16px;
+font-weight:400px;
+color:#010101;
+}
+/*common end*/
+/*header start*/
+header{
+	border:1px solid;
+	padding:30px 0;
+	background-color:#fcdb00;
+
+}
+.container{
+	margin:0 auto;
+	overflow:hidden;
+width:66%;
+/*border:1px solid;*/
+}
+.logo1{
+	overflow:hidden;
+	float:left;
+/*border:1px solid red;*/
+}
+.logo{
+	margin-top:10px;
+float:left;
+width:36%;
+/*border:1px solid;*/
+}
+.logo a{
+
+}
+.logo a img{
+width:100%;
+}
+.brandname{
+	width:64%;
+	/*border:1px solid;*/
+	float:right;
+}
+.brandname a{
+text-decoration:none;
+}
+.brandname a h2{
+color:#010101;
+}
+.menu{
+margin-top:10px;
+width:43%;
+/*border:1px solid;*/
+float:right;
+}
+.menu ul{
+list-style:none;
+float:right;
+}
+.menu ul li{
+float:left;
+}
+.menu ul li a{
+margin:0 35px;
+display:inline-block;
+text-decoration:none;
+font-size:16px;
+color:#010101;
+}
+.menu ul li:last-child a{
+margin-right:0;
+}
